@@ -59,11 +59,11 @@ let package = Package(
       targets: ["MLKitSmartReply", "MLKitLanguageID", "MLKitNaturalLanguage", "MLKitXenoCommon", "MLKitCommon", "GoogleToolboxForMac", "Common"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/google/promises.git", exact: "2.4.0"),
-    .package(url: "https://github.com/google/GoogleDataTransport.git", exact: "10.1.0"),
-    .package(url: "https://github.com/google/GoogleUtilities.git", exact: "8.1.0"),
-    .package(url: "https://github.com/google/gtm-session-fetcher.git", exact: "3.5.0"),
-    .package(url: "https://github.com/firebase/nanopb.git", exact: "2.30910.0"),
+    .package(url: "git@github.com:google/promises.git", exact: "2.4.0"),
+    .package(url: "git@github.com:google/GoogleDataTransport.git", exact: "10.1.0"),
+    .package(url: "git@github.com:google/GoogleUtilities.git", exact: "8.1.0"),
+    .package(url: "git@github.com:google/gtm-session-fetcher.git", exact: "3.5.0"),
+    .package(url: "git@github.com:firebase/nanopb.git", exact: "2.30910.0"),
   ],
   targets: [
     // For debugging
